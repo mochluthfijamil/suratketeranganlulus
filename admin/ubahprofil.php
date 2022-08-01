@@ -203,12 +203,12 @@ if (empty($_SESSION['status_login'])) {
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nama Sekolah</label>
                     <input type="text" class="form-control" id="sekolah" name="sekolah" autocomplete="off"  value="<?php echo $data['sekolah']; ?>">
-                    <p>Format form ini diwajibkan menggunakan kapital misal : SMP BUSTANUL FALAH</p> 
+                    <p>Format form ini diwajibkan menggunakan kapital misal : SMK 1 IBRAHIMY SUKOREJO</p> 
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Kabupaten / Kota</label>
                     <input type="text" class="form-control" id="kabupaten" name="kabupaten" value="<?php echo $data['kabupaten']; ?>" autocomplete="off"> 
-                    <p>Format form ini diwajibkan menggunakan kapital dan mengawalai kata dengan  kabupaten/kota, misal : KOTA TEGAL / KABUPATEN TEGAL</p>
+                    <p>Format form ini diwajibkan menggunakan kapital dan mengawalai kata dengan  kabupaten/kota, misal : KOTA SITUBONDO / KABUPATEN SITUBONDO</p>
                   </div>
 
 <div class="form-group">
